@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME PAGE</title>
+    <style>
+        body{
+            font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #72e38a;        }
+               .box1 {
+        display: inline-block;
+  width: 300px;
+  height: 200px;
+  background-image: url('eventhub.png');
+  background-position: center;
+  border: 1px solid #111211;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+.box2 {
+    display: inline-block;
+  width: 300px;
+  height: 200px;
+  background-image: url('bartersystem.png');
+  background-position: center;
+  border: 1px solid #111211;
+  padding: 10px;
+  margin: 0 auto;
+}
+.box2 {
+          margin-top: 15%;
+          margin-left: 20%;
+          transform: translateX(-50%);
+        }
+ .nav-item .btn-link {
+  background-color: #333;
+  border: 1px solid #ccc;
+  color: #fff;
+  font-size: 14px;
+}
+
+  
+    </style>
+</head>
+<body> 
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar scroll</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Link
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Link</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+            <ul class="nav navbar-nav navbar-right">
+              <li class="nav-item">
+                <a href="#" class="btn-link btn-block">User Login</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="btn-link btn-block">Admin Login</a>
+              </li>
+            </ul>
+            
+          </div>
+        </div>
+      </nav>
+<div>
+       <center>
+        
+        <div class="box1" onclick="window.location.href = 'https://www.youtube.com/'">
+        </div>
+   
+
+        <div class="box2" onclick="window.location.href = 'https://www.youtube.com/'">
+          </div>
+       </center>
+</div>
+<script src="js/bootstrap.js"></script>
+    </body>
